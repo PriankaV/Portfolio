@@ -1,13 +1,13 @@
-/* Style for featured post image */
-.image.main {
+/* Style for images within the post.featured class */
+.post.featured .image.main {
     display: block;
     width: 100%;
     height: 400px; /* Set a fixed height for the featured image */
     object-fit: cover; /* Ensure the image covers the container */
 }
 
-/* Style for regular post images */
-.image.fit {
+/* Style for images within the posts class */
+.posts .image.fit {
     display: block;
     width: 100%;
     height: 200px; /* Set a fixed height for regular images */
