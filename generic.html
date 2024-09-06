@@ -1,65 +1,116 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>About Me Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Prianka K. Vikram's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Add some space between sections */
+        }
+        .section-container .post {
+            flex: 1;
+            margin: 0 10px;
+            border: 1px solid #ddd; /* Add border to each section */
+            border-radius: 8px;
+            padding: 10px; /* Add padding inside the sections */
+            background-color: #fff; /* Ensure background is white */
+        }
+        .contact-info {
+            text-align: center;
+            margin: 10px 0; /* Adjust top and bottom margin */
+        }
+        .contact-info .image.main {
+            display: block;
+            margin: 0 auto 10px; /* Center the image and add bottom margin */
+        }
+        .contact-info .image.main img {
+            border-radius: 50%;
+            width: 200px; /* Adjust as needed */
+            height: 200px; /* Adjust as needed */
+            object-fit: cover;
+        }
+        #intro {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-				<!-- Wrapper -->
-				<div id="wrapper" class="fade-in">
-					<!-- Intro -->
-						<div id="intro">
-							<h1>About Me</h1>
-							<ul class="actions">
-								<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-							</ul>
-						</div>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Prianka K. Vikram's Portfolio</h1>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Projects</a></li>
-							<li class="active"><a href="generic.html">About Me</a></li>
-							<li><a href="elements.html">Experiences</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/priankavikram/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/PriankaV" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="generic.html">About Me</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="elements.html">Experiences</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/priankavikram/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/PriankaV" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Main -->
+        <div id="main">
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<h1>  </h1>
-									        <p>Hello, I'm Prianka, a Computer Science student at Georgia State University with a concentration in data science. My studies have equipped me with skills in Java, Python, C++, C#, SQL, HTML, and CSS.</p>
-      										<p>I hold certifications in "Introduction to Java" by Learn Quest and "MTA: Software Development Fundamentals." I'm also working towards more advanced certifications.</p>
-        									<p>Outside of academics, I'm active in GSU Esports and the Game Dev clubs. In my free time, I enjoy gaming and experimenting with new baking recipes.</p>
-       										<p>I'm passionate about data science, entrepreneurship, and technology; I look forward to making meaningful contributions to these fields.</p>
-								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Feel free to conect with me at priankavikram@gmail.com</p>
-							</section>
+            <!-- Sections Side by Side -->
+            <div class="section-container">
+                <!-- Educational Background Section -->
+                <section class="post">
+                    <header class="major">
+                        <h2>Educational Background</h2>
+                        <p>Hi, I am Prianka Vikram; a Junior at Georgia State University pursuing a major in Computer Science with a certificate in Data Science. My academic journey has immersed me in a diverse range of programming languages, including Java, Python, C++, C#, SQL, PL/SQL, HTML, and CSS.</p>
+                        <p>Some major classes I have taken include: Data Science, Software Development, and Programming Language Concepts. Some important classes I'm currently taking are: Fundamentals of Data Science, Database Systems, and Capstone 1.</p>
+                        <p>I have acquired the following certifications: "Introduction to Java" by Learn Quest and "MTA: Software Development Fundamentals." I am actively studying to gain more in the near future!</p>
+                        <p>In addition to school, I have programmed several projects to showcase my skills and interest; I have also gained a ton of valuable skills though my internships.</p>
+                        <p>I am active in student organizations like Game Development UNICEF, and I participate in hackathons. These activities help me stay active and connected!</p>
+                    </header>
+                </section>
+                <!-- Hobbies & Interests Section -->
+                <section class="post">
+                    <header class="major">
+                        <h2>Hobbies & Interests</h2>
+                        <p>I’m a 21-year-old from Atlanta, GA, with a diverse range of interests that keep my life vibrant and fulfilling. A bit about me: I have two brothers—one older and one younger—and I share my home with a charming pet cat.</p>
+                        <p>Gaming is a major passion of mine. I used to play Valorant, which hopefully has sharpened my strategic thinking and teamwork skills. My interest in gaming began with Minecraft, where I started coding mods to enhance my gameplay experience. This early fascination with game development has only deepened over time.</p>
+                        <p>Baking is another cherished hobby. I specialize in creating pastries and other sweet treats, a passion that started as a friendly competition with my older brother. There's something incredibly rewarding about crafting delicious confections from scratch, and it’s a joy I continue to explore.</p>
+                        <p>I have gotten back into painting recently. This time I am focusing on improving my technique and exploring new styles, which has been very messy but a great creative outlet.</p>
+                    </header>
+                </section>
+            </div>
 
-					</div>
-			</div>
+            <!-- Image and Contact Info Section -->
+            <article class="post featured">
+                <div class="contact-info">
+                    <div class="image main"><img src="images/pic01.jpg" alt="Prianka's Photo" /></div>
+                    <p>Feel free to connect with me at <a href="mailto:priankavikram@gmail.com">priankavikram@gmail.com</a>.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>

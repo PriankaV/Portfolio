@@ -1,56 +1,83 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Experiences</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Experiences</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Flexbox container for side-by-side layout */
+        .experience-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }   
 
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
-			<!-- Intro -->
-				<div id="intro">
-					<h1>My Experiences</h1>
-					<ul class="actions">
-						<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-					</ul>
-				</div>
+        /* Individual experience card */
+        .experience-card {
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Projects</a></li>
-							<li><a href="generic.html">About Me</a></li>
-							<li class="active"><a href="elements.html">Experiences</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/priankavikram/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/PriankaV" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-				
-				<!-- Main -->
-				<div id="main">
-				<!-- Featured Post -->
-				<article class="post featured">
-					<header class="major">
-						<h2>  <br />   </h2>
-							<p>  </p>
-						</header>
-				</article>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Prianka K. Vikram<br />
+                Experience</h1>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="generic.html">About Me</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="elements.html">Experiences</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/priankavikram/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/PriankaV" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+        
+        <!-- Main -->
+        <div id="main">
+            <!-- Container for experiences -->
+            <div class="experience-container">
+                <!-- Full-stack Developer Experience -->
+                <div class="experience-card">
+                    <h2>Full-stack Developer<br />Appletree LLC</h2>
+                    <p>Aug 2024 - Present · Remote</p>
+                    <p>As a Full-stack Developer intern at Appletree LLC, I have been instrumental in developing and maintaining a comprehensive database system using SQL. My responsibilities extend across both front-end and back-end development, utilizing languages such as Python, SQL, HTML, CSS, and JavaScript. In this role, I collaborate closely with cross-functional teams to ensure seamless integration of new features, optimize performance, and enhance user experience through clean, efficient code.</p>
+                </div>
 
-	</body>
+                <!-- Web Application Developer Experience -->
+                <div class="experience-card">
+                    <h2>Web Application Developer<br />Appletree LLC</h2>
+                    <p>Jan 2023 - Aug 2023 · Remote</p>
+                    <p>During my internship as a Web Application Developer at Appletree LLC, I contributed to the design and development of web applications, focusing on creating intuitive user interfaces and efficient back-end processes. I worked extensively with HTML, CSS, and JavaScript to build responsive, user-friendly applications and used SQL for database management. This experience allowed me to develop many technical skills and gain hands-on experience in delivering solutions that meet client needs.</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
